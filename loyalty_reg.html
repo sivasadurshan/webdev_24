@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store Loyalty Registration</title>
+    <link rel="stylesheet" href="./css/loyalty_reg.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="icon" href="img/Icon1.png">
+    <!--poppins-font-------->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!--link-fontawesome====================================-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+  <nav class="logo">
+        
+
+    <a href="./index.html" class="name"> 
+        <span>V</span>ariety <span>F</span>inds
+    </a>
+
+    <ul class="menu">
+        <li><a href="./index.html" class="active">Home</a></li>
+        <li><a href="./About_us.html">About us</a></li>
+        <li><a href="./products.html">Products</a></li>
+        <li><a href="./loyalty_reg.html">Loyalty Registration</a></li>
+        <li><a href="./order.html">Order</a></li>
+    </ul>
+    
+<!--navigation-font-awesome------>
+
+    <div class="icons">
+        <!--like-->
+        <a href="#" class="like">
+            <i class="fa-regular fa-heart"></i>
+            <span>0</span>
+        </a>
+        <!--cart-->
+        <a href="#" class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <span>0</span>
+        </a>
+    </div>
+
+</nav>
+<!--nav-end=========================================================-->
+
+    <div class="container">
+        <form action="#" method="post">
+            <h2>Grocery Store Loyalty Registration</h2>
+            <div class="form-group">
+                <label for="name"><a>Full Name</a></label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <textarea id="address" name="address" required></textarea>
+            </div>
+            <div class="form-group">
+                <select id="scheme">
+                    <option value="Platinum">Platinum</option>
+                    <option value="Gold">Gold</option>
+                    <option value="Silver">Silver</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+    <section class="loyalty-scheme">
+        <h4 class="about"> Platinum </h4>
+        <p class="abt-1">The Platinum Scheme is our top-tier loyalty program, offering premium benefits like priority customer service, early access to promotions, and significant discounts. Platinum members earn double loyalty points on all purchases, perfect for frequent shoppers seeking maximum savings and exclusive rewards.</p>
+        <h4 class="about"> Gold </h4>
+        <p class="abt-1">The Gold Scheme provides a great balance of rewards and savings. Gold members enjoy substantial discounts, earn 1.5 times the loyalty points, and get early access to special promotions. It's ideal for regular shoppers who want added value and exclusive deals.</p>
+        <h4 class="about"> Silver </h4>
+        <p class="abt-1">The Silver Scheme is our entry-level loyalty program, offering moderate discounts and loyalty points on every purchase. Silver members also receive advance notifications about sales and promotions, making it perfect for occasional shoppers looking for additional benefits.</p>
+    </section>
+<!----Footer---->
+    <footer>
+      <div class="soc_med">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-google"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+
+      <ul class="menu-1">
+        <li><a href="./index.html" class="active">Home</a></li>
+        <li><a href="./About_us.html">About us</a></li>
+        <li><a href="./products.html">Products</a></li>
+        <li><a href="./loyalty_reg.html">Loyalty Registration</a></li>
+        <li><a href="./order.html">Order</a></li>
+    </ul>
+
+      <p class="bottom">&copy; 2024 Variety Finds - All rights reserved.</p>
+  </footer>
+  
+
+</body>
+</html>

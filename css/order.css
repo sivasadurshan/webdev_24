@@ -1,0 +1,132 @@
+body {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: lightgreen;
+    padding: 30px;
+    transition: all ease .3s;
+    transition-duration: 1s;
+  }
+  
+  header:hover{
+    transform: scale(1.01);
+    background-color: rgb(56, 214, 35); ;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .customer-details {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input, textarea,
+select{
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+
+/*---align-payment-icons---*/
+  .payment-icons {
+    text-align: center;
+  }
+
+
+  .payment-icons img {
+    width: 50px; 
+    height: auto; 
+    margin: 10px; 
+  }
+
+  .payment-icons{
+    height: 90px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 22px;
+    box-shadow: 0px 2px 1px #888888;
+    transition-duration: .5s;
+  }
+
+  .payment-icons:hover{
+    box-shadow: 0px 6px 4px #888888;
+  }
+
+  .pay{
+    transition: all ease 0.3s;
+  }
+  
+  .pay:hover{
+    transform: scale(1.08);
+  }
+  
+  @media only screen and (max-width: 760px) {
+    /* Navigation */
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu,.menu-1 {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        margin-top: 10px;
+    }
+
+    .menu li {
+        padding: 5px 0;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    /* Footer */
+    footer {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .soc_med a {
+        margin: 0 5px;
+    }
+}
